@@ -226,10 +226,40 @@ latest course css start from here
         width:auto;
     }
     .left{
-        margin-left: 10px;
+       
         margin-top:10px;
+    }
+    .right{
+        margin-bottom: 10px;
+        margin-top: -8px;
     }
     .right li{
         margin: 0 10px;
+
     }
+    .artical{
+        display: flex;
+        flex-direction: column;
+        width:100%;
+    }
+    .topper-info{
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+    }
+    .top-blog-fram{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 30px;
+        row-gap: 29px;
+    }
+    .course-frem{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 23px;
+        margin:30px;
+        justify-content: center;
+    }
+
+
+
 }
