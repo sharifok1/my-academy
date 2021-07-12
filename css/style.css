@@ -170,7 +170,7 @@ latest course css start from here
 .course-headline h1{
     font-size: 20px;
     font-weight: 500;
-    color: #562EFF;
+    color: black;
     margin:10px 0;
 }
 .course-headline p{
@@ -263,3 +263,46 @@ latest course css start from here
 
 
 }
+@media only screen and (min-width:669px) and (max-width:992px){
+    *{
+        margin:0px;
+    }
+        .manu{
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            padding:0 20px;
+        }
+        .artical{
+            display: flex;
+            flex-direction: column;
+            width:100%;
+        }
+        .topper-info{
+            grid-template-columns: repeat(2, 1fr);
+            justify-content: center;
+        }
+        .top-blog-fram{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            margin: 30px;
+            row-gap: 29px;
+        }
+        .course-font{
+            display: flex;
+            justify-content: start;
+            flex-direction: row;
+            width: 100%;
+        }
+        .course-frem{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .for-tab {
+            margin-left: 20px;
+        }
+
+    
+    
+    }
