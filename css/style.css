@@ -1,0 +1,235 @@
+*{
+    margin:0px;
+    text-decoration: none;
+    list-style: none;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:94px;
+    background-color: #562EFF;
+
+}
+.manu{
+    display: flex;
+    justify-content: space-between;
+    width:870px;
+}
+.left{
+    display: flex;
+    align-items: center;
+}
+.left i{
+    margin-right: 15px;
+}
+.left .far{
+  font-size: 36px;
+  color:#fff;
+}
+.left span{
+    font-size: 24px;
+    color:#fff;
+    font-weight: 500;
+}
+.right{
+    display: flex;
+    align-items: center;
+}
+.right li{
+    margin-right: 36px;
+}
+.right li a{
+    font-size: 16px;
+    color:#fff;
+}
+#profile-img{
+    height:51px;
+    width:51px;
+    border-radius: 50%;
+}
+/* main part 
+=================================*/
+.body{
+    background-color: #E5E5E5;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.artical{
+    width: 870px;
+    height:auto;
+    background-color:#fff;
+    margin-bottom: 40px;
+    
+}
+.artical .box-1{
+    border-top: 17px solid #E5E5E5;
+    border-bottom: 28px solid #E5E5E5;
+}
+.topper h1{
+    font-size: 24px;
+    font-weight: 500;
+    margin-left:34px;
+    margin-top:46px;
+    color:#562EFF;
+}
+.topper-info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content:space-between;
+    row-gap: 29px;
+    margin: 34px;
+}
+.topper-face{
+    display: flex;
+    }
+.topper-info img{
+    height:56px;
+    width:56px;
+    border-radius: 50%;
+}
+.topper-info h1{
+    margin:16px;
+    font-size: 18px;
+    font-weight: 500;
+    color:black
+}
+hr{
+    margin: 0 40px;
+    border:1px solid #D1D1D1;
+    margin-bottom: 46px;
+}
+/* top blog start css 
+============================*/
+.top-blog-fram{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 30px;
+    row-gap: 29px;
+}
+.top-blog> h1{
+    color:#562EFF;
+    margin-left: 30px;
+    font-size: 24px;
+}
+.blog-content{
+    display: flex;
+}
+.blog-content img{
+    border-radius: 10px;
+    height:117px;
+    width:177px;
+    margin-right: 16px;
+    border: 1px solid black;
+}
+.blog-content h1{
+    font-size: 20px;
+    margin-bottom: 6px;
+    margin-top: 6PX;
+}
+.blog-content p{
+    color: #9F9F9F;
+}
+/* ========================
+latest course css start from here 
+=====================================*/
+.box-2{
+    margin-bottom: 10px;
+}
+.artical .box-2> h1{
+    font-size: 24px;
+    color:#562EFF;
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top:46px;
+
+}
+.course-frem{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 23px;
+    margin:30px;
+    justify-content: center;
+}
+.course-font{
+    box-shadow: 0px 0px 10px .1px lightgrey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: auto;
+    padding:5px 10px;
+    border-radius: 10px;
+}
+.course-font img{
+    height:104px;
+    width:224px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.course-headline h1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #562EFF;
+    margin:10px 0;
+}
+.course-headline p{
+    color:#ED6B4F;
+    font-size: 14px;
+}
+.course-info{
+    margin: 6px 0;
+}
+.fas{
+    color: goldenrod;
+    font-size:14px;
+}
+#empty-star{
+    color:#AEAEAE;
+}
+#rating{
+    color:#AEAEAE;
+    font-size:14px;
+    margin:0 6px;
+}
+#duration{
+    color:#FF4A60;
+    background-color: #FFE4E8;
+    padding:2px 5px;
+    border-radius: 10px;
+}
+.fa-clock{
+    padding-right: 5px;
+}
+#duration-middle{
+    color:
+    #ED6B4F;
+    background-color: #FFE4E8;
+    padding:2px 5px;
+    border-radius: 10px;
+}
+#fa-clock-middle{
+    padding-right: 5px;
+}
+
+
+/* media quary
+============================= */
+@media only screen and (max-width:668px){
+*{
+    margin:0px;
+}
+    .manu{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        width:auto;
+    }
+    .left{
+        margin-left: 10px;
+        margin-top:10px;
+    }
+    .right li{
+        margin: 0 10px;
+    }
+}
